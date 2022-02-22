@@ -1,13 +1,146 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: auto;
+    text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.blog {
+    width: 1440px;
+    height: 850px;
 }
+
+.header {
+    display: flex;
+}
+
+.img {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    left: 335px;
+    top: 17px;
+    margin: 5px 0 0 385px;
+}
+
+.ounter {
+    width: 119px;
+    height: 47px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 47px;
+    color: #F27C0F;
+}
+
+.menubar {
+    margin-left: 277px;
+}
+.menubar ul {
+    display: flex;
+    list-style: none;
+}
+
+.menubar li {
+    margin-left: 30px;
+    font-family: Gilroy;
+    font-size: 24px;
+    color: #003399;
+    cursor: pointer;
+}
+
+.menubar li:hover {
+    color: orange;
+}
+
+.line {
+    margin: auto;
+    margin-top: 20px;
+    width: 770px;
+    height: 0px;
+    left: 335px;
+    top: 82px;
+    border: 1px solid rgba(0, 0, 0, 0.05); 
+}
+
+.start {
+    margin-top: 20px;
+    font-size: 288px;
+    text-align: center;
+    color: #F27C0F;
+}
+
+.options {
+    text-align: center;
+    margin-right: 55px;
+}
+
+.options button {
+    font-size: 24px;
+    margin-left: 55px;
+    width: 200px;
+    height: 58px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.butt1 {
+    background-color: #003399;
+    color: white;
+}
+
+.butt1:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.butt2 {
+    background-color: #F27C0F;
+    color: white;
+}
+.butt2:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.butt3 {
+    background-color: #E5E5E5;
+    color: black;
+}
+.butt3:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    margin-top: 200px;
+}
+
+.unter {
+   margin-left: 345px;
+   display: flex;
+}
+
+.text {
+    height: 14.715002059936523px;
+    width: 67.78816986083984px;
+    margin-top: 5px;
+}
+
+.bar {
+    margin-left: 30px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.bar:hover {
+    color: orange;
+}
+
+.last {
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 150px;
+}
+
